@@ -1,0 +1,14 @@
+num1/num2 == certain value 
+But Remainder== ??
+
+10/2 = 5
+
+// This is for remainder
+
+mod / % -- num1/num2 == remainder 
+
+11/2 = 1
+
+2*5 = 10
+
+and 1 is remainder
