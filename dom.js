@@ -24,15 +24,17 @@ accr.addEventListener("click", function(){
     }
 });
 
-// const Acc = document.querySelector(".hoverbtn");
-// const content = document.querySelector(".HoverText");
-// console.log(Acc);
-// Acc.addEventListener("mouseover", function(){
-//     const check = content.classList.contains("d-none");
-//     if(check){
-//         content.classList.remove("d-none");
-//     }else{
-//         content.classList.add("d-none")
-//     }
-// })
+
+
+const Acc = document.querySelector(".hoverbtn");
+const contents = document.querySelector(".HoverText");
+console.log(Acc);
+Acc.addEventListener("mouseover", function(){
+    const check = contents.classList.contains("d-none");
+    if(check){
+        contents.classList.remove("d-none");
+    }else{
+        contents.classList.add("d-none")
+    }
+})
 
