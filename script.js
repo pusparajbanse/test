@@ -504,11 +504,8 @@
 // for(let i = 2; i<=20; i += 2){
 
 
-
-
 //     console.log(i)
 // }
-
 
 
 // 3. Sum of First 10 Natural Numbers
@@ -528,3 +525,79 @@
 // for(let i = 10; i>=1; i--){
 //     console.log(i)
 // }
+
+
+
+// 5. Print Multiplication Table of 5
+// Write a loop that prints the multiplication table of 5 up to 10.
+
+
+// const head = document.getElementById("header");
+// console.log(head);
+
+
+
+// const para = document.getElementsByClassName("para");
+// console.log(para);
+
+// const items = document.getElementsByClassName("items");
+// console.log(items)
+
+// const itemss = document.querySelectorAll("#items");
+// console.log(itemss)
+
+
+// const item = document.getElementsByTagName("li");
+// console.log(item)
+
+
+// const head = document.querySelector("h1").style.color = "blue";
+
+ 
+// querySelector()
+// const container = document.querySelector(".container");
+// console.log(container)
+
+let list = document.querySelector("#list");
+let nweitems = document.createElement("li");
+nweitems.innerText = "Backend"
+list.append(nweitems);
+console.log(list)
+
+// querySelectorAll
+// const all = document.querySelectorAll("div")
+// console.log(all)
+
+
+
+// Style & Elememnt
+const lisst = document.querySelector("li").style.color = "blue"
+console.log(lisst)
+
+
+// Creating Elements
+const ul = document.querySelector("#list")
+const li = document.createElement("li")
+li.innerText = "PHP";
+list.append(li)
+console.log(ul)
+
+
+
+// Modifying text
+// const firstText = document.querySelector(".items");
+// console.log(firstText)
+
+// console.log(firstText.innerHTML);
+// console.log(firstText.innerText);
+// console.log(firstText.textContent);
+
+// const firstText = document.querySelector(".items");
+// console.log(firstText)
+// console.log(firstText.innerHTML)
+// console.log(firstText.innerText)
+// console.log(firstText.textContent)
+
+
+document.getElementById("demo").textContent = "Hello javasrcipt";
+

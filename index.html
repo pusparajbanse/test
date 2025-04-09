@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
-</body>
-</html>                         
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practice</title>
+    </head>
+    <body>
+        <h1 id="header">Hello World!</h1>
+        <p class="para">helo</p>
+
+        <div class="items">div1</div>
+        <div class="items">div2</div>
+        <div id="items">div3</div>
+
+        <p id="demo">Hello World</p>
+        <div class="text"></div>
+        <div id="text-container">
+            <!-- Text will be added here -->
+        </div>
+
+        <ul id="list">
+            <li>WEB</li>
+            <li>Graphics</li>
+            <li>Flutter</li>
+        </ul>
+        <div class="container">ABSD</div>
+        <script>
+            const items = document.querySelectorAll("#list");
+            items.forEach((li) => {
+              li.style.color = "red";
+            });
+          </script>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>

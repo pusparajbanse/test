@@ -1,0 +1,12 @@
+.text
+{
+    border: 1px solid black;
+}
+
+.d-none{
+    display: none;
+    padding: 20px;
+}
+.HoverText{
+    border: 1px solid red;
+}
